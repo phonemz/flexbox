@@ -59,14 +59,15 @@ body{
 }
 
 .hero .image img{
-    width: 400px;
+    width: 360px;
     height: auto;
-    padding-bottom: 20px;
+    margin: 40px;
 }
 
 .feature-cards{
     display: flex;
     justify-content: space-between;
+    margin: 20px 40px;
 }
 
 .feature{
@@ -74,7 +75,7 @@ body{
     height: 100px;
     background: #6BCC6C;
     border-radius: 5px;
-    margin: 20px;
+    margin: 0 20px;
 }
 
 .feature-header,i{
