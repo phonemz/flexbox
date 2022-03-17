@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;800&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #6BCC6C;
+}
+
+body{
+    background: #222;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+}
+
+.logo a{
+    text-decoration: none;
+    color: inherit;
+    margin-left: 80px;
+    font-size: 1.8rem;
+}
+
+.menu ul{
+    display: flex;
+}
+
+.menu ul li{
+    list-style: none;
+    margin-right: 80px;
+    transition: transform 500ms;
+}
+
+.menu ul li:hover{
+    transform: scale(1.2);
+}
+.menu ul li a{
+    text-decoration: none;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 80px 0 80px;
+}
+
+.text-header{
+    font-size: 3rem;
+}
+
+.text-body{
+    font-size: 1.2rem;
+}
+
+.hero .image img{
+    width: 400px;
+    height: auto;
+    padding-bottom: 20px;
+}
+
+.feature-cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.feature{
+    width: 400px;
+    height: 100px;
+    background: #6BCC6C;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+.feature-header,i{
+    color: #222;
+    font-size: 1.4rem;
+}
+
+i{
+    padding: 5px;
+}
+
+.feature-body p{
+    color: #222;
+    padding:0 5px 5px 5px;
+}
+
+
+
+
+
+
